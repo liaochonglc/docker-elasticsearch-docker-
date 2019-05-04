@@ -1,0 +1,2 @@
+首先用docker拉取6.5版本的elasticsearch 其次要设置内存 最好设置六万多 进入elasticsearch 容器内部 修改配置文件 那里有个集群名字 其次给它设置跨域
+完事之后 下载ik分词器的包 注意是zip 放入容器里面 然后重启docker 还有容器 然后拉取head5.0 然后启动
